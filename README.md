@@ -409,20 +409,6 @@ class MonService
 
 ---
 
-## Développement local
-
-Un `docker-compose.yml` est fourni pour exécuter le SDK dans un environnement PHP 8.4 isolé.
-
-```bash
-# Installer les dépendances
-docker compose run --rm php composer install
-
-# Lancer un script
-docker compose run --rm php php mon-script.php
-```
-
----
-
 ## Licence
 
 MIT — voir [LICENSE](LICENSE).
