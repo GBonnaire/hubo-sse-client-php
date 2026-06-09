@@ -1,0 +1,13 @@
+{
+    "name": "gbonnaire/hubo-sse-client-php",
+    "description": "SDK PHP SSE pour hubo-sse",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.4",
+        "lcobucci/jwt": "^5.6",
+        "symfony/http-client": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {"HuboSSE\\": "src/"}
+    }
+}

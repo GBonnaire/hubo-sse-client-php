@@ -1,0 +1,14 @@
+## FILE MACOS ##
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+## IDE ##
+/.idea/
+/vendor/
+docker-compose.yml
+/composer.lock
